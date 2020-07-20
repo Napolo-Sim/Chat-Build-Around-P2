@@ -15,12 +15,39 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Press Start 2P', cursive;
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
 }
 
+/* NAVBAR HARD STYLING */
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+  }
+  
+.nav-item {
+	float: left;
+  }
+  
+.nav-item a {
+	display: block;
+	color: darkgray;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav-item a:hover {
+	background-color: gainsboro;
+  }
+/* NAVBAR HARD STYLING END */
 ul {
 	list-style: none;
 }
